@@ -42,7 +42,7 @@ pip install ".[examples]"
 Or install directly from GitHub:
 
 ```bash
-pip install "git+https://github.com/<your-username>/ec-fem.git"
+pip install "git+https://github.com/MusKilinc/EC-FEM"
 ```
 
 ---
@@ -143,23 +143,6 @@ K_free, M_free, free_dofs = assembler.get_reduced_system(fixed_dofs)
 U = assembler.solve_static(K_free, force_vector)
 freqs, modes = assembler.solve_dynamic(K_free, M_free, num_modes=3)
 ```
-
----
-
-## Citation
-
-If you use EC-FEM in your research, please cite:
-
-```bibtex
-@article{kilinc2024ecfem,
-  title   = {EC-FEM: An exact finite element formulation for non-prismatic frame members},
-  author  = {Kilinc, Muslum and Al-Anbagi, Mustafa},
-  journal = {[Journal Name]},
-  year    = {2024},
-  doi     = {10.xxxx/xxxxx}
-}
-```
-
 ---
 
 ## License
