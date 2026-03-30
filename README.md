@@ -29,7 +29,7 @@ A single EC-FEM element replaces hundreds of prismatic sub-elements without loss
 
 ```bash
 # Clone the repository
-git clone https://github.com/<your-username>/ec-fem.git
+git clone https://github.com/MusKilinc/EC-FEM
 cd ec-fem
 
 # Install the core library
