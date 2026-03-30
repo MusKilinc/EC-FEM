@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+ecfem/__init__.py
+ecfem/assembly.py
+ecfem/elements.py
+ecfem/stepwise.py
+ecfem.egg-info/PKG-INFO
+ecfem.egg-info/SOURCES.txt
+ecfem.egg-info/dependency_links.txt
+ecfem.egg-info/requires.txt
+ecfem.egg-info/top_level.txt

@@ -1,0 +1,11 @@
+numpy>=1.24
+scipy>=1.10
+sympy>=1.12
+
+[dev]
+pytest>=7.4
+pytest-cov
+
+[examples]
+pandas>=2.0
+matplotlib>=3.7
